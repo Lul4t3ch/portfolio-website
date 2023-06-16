@@ -19,7 +19,6 @@ const Education = () => {
           <ResumeCard
             title="Análise e Desenvolvimento de Sistemas"
             subTitle="Unicesumar (Jul 2022 - Dez 2024)"
-            result="3.90/4"
             des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           />
         </div>

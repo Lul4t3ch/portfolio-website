@@ -8,6 +8,8 @@ import projectFive from "./images/projects/projectFive.png";
 import projectSix from "./images/projects/projectSix.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
+import curriculo from "./images/curriculo.jpg";
+import logoUnicesumar from "./images/logoUnicesumar.png";
 
 export {
   logo,
@@ -20,4 +22,6 @@ export {
   projectSix,
   quote,
   contactImg,
+  curriculo,
+  logoUnicesumar
 };

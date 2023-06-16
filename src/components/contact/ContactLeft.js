@@ -16,18 +16,17 @@ const ContactLeft = () => {
           DESENVOLVEDOR WEB
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+          Buscando por estágio!
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+55 (75) 998535323</span>
+          Telefone: <span className="text-lightText">+55 (75) 998535323</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email: <span className="text-lightText">luissantosmatos15@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
+        <h2 className="text-base uppercase font-titleFont mb-4">Me encontre</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
           <a href="https://www.linkedin.com/in/luishenrique-dev/">

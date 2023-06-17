@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaWhatsapp, FaLinkedinIn, FaCode } from "react-icons/fa";
 import {logo} from "../../assets/index"
 import { navLinksdata } from '../../constants';
 
@@ -10,8 +10,10 @@ const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div>
-        <img src={logo} alt="logo" />
+      <div className="flex justify-center items-center">
+        {/* <img src={logo} alt="logo" /> */}
+        <FaCode size={43} color="#c4cfde"/>
+        <p className="text-lg pl-2  pt-0.5 font-bold text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">LUL4T3CH</p>
       </div>  
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -43,11 +45,15 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                <img className="w-32" src={logo} alt="logo" />
+                {/* <img className="w-32" src={logo} alt="logo" /> */}
+                <div className="flex justify-start items-center pb-4">
+                  <FaCode size={43} color="#c4cfde"/>
+                  <p className="text-lg pl-2  pt-0.5 font-bold text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">LUL4T3CH</p>
+                </div> 
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                Dedico meu tempo para estudar tecnologia e me desenvolver como profissional,
+                totalmente focado na área que desejo atuar. Possuo conhecimento em tecnologias
+                como Javascript, Typescript, ReactJs, HTML, CSS e vários projetos no meu github.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -72,17 +78,24 @@ const Navbar = () => {
               </ul>
               <div className="flex flex-col gap-4">
                 <h2 className="text-base uppercase font-titleFont mb-4">
-                  Find me in
+                  Me encontre
                 </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
-                    <FaFacebookF />
+                    <a href="https://www.linkedin.com/in/luishenrique-dev/">
+                      <FaLinkedinIn />
+                    </a>
+                  </span>
+
+                  <span className="bannerIcon">
+                    <a href="https://api.whatsapp.com/send?phone=5575998535323&text=">
+                      <FaWhatsapp />
+                    </a>
                   </span>
                   <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
+                    <a href="https://github.com/Lul4t3ch">
+                      <FaGithub />
+                    </a>
                   </span>
                 </div>
               </div>

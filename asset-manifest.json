@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.579eac23.css",
+    "main.js": "/static/js/main.f4ea7999.js",
+    "static/media/banner.png": "/static/media/banner.466bc02e3bfa6d87f075.png",
+    "static/media/projectFour.png": "/static/media/projectFour.d98c0474007db4d5c8cb.png",
+    "static/media/projectSix.png": "/static/media/projectSix.86b7fd1e788e6944c4bc.png",
+    "static/media/projectFive.png": "/static/media/projectFive.77a4421db7074b45edb2.png",
+    "static/media/projectThree.png": "/static/media/projectThree.1e49afb23ccf094cf097.png",
+    "static/media/projectOne.png": "/static/media/projectOne.0e1e11b56aa73d44f34b.png",
+    "static/media/curriculo.jpg": "/static/media/curriculo.4e41592b2622db9202a7.jpg",
+    "static/media/projectTwo.png": "/static/media/projectTwo.53e83c72444230625dcf.png",
+    "static/media/contactImg.png": "/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/logoUnicesumar.png": "/static/media/logoUnicesumar.a6ced6b2cf67bc26fa91.png",
+    "index.html": "/index.html",
+    "main.579eac23.css.map": "/static/css/main.579eac23.css.map",
+    "main.f4ea7999.js.map": "/static/js/main.f4ea7999.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.579eac23.css",
+    "static/js/main.f4ea7999.js"
+  ]
+}

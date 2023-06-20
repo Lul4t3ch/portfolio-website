@@ -8,6 +8,7 @@ import projectSix from "./images/projects/projectSix.png";
 import contactImg from "./images/contact/contactImg.png";
 import curriculo from "./images/curriculo.jpg";
 import logoUnicesumar from "./images/logoUnicesumar.png";
+import favicon from "./images/favicon.png";
 
 export {
   banner,
@@ -19,5 +20,6 @@ export {
   projectSix,
   contactImg,
   curriculo,
-  logoUnicesumar
+  logoUnicesumar,
+  favicon,
 };

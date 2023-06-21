@@ -13,11 +13,11 @@ const Skills = () => {
           <p className="text-sm text-designColor tracking-[4px] uppercase">
             Habilidades
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold">Desenvolvimento Web</h2>
+          <h2 className="text-1xl sm:text-2xl sml:3xl md:text-4xl font-bold">Desenvolvimento Web</h2>
         </div>
         <div className="flex flex-col gap-6">
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">React</p>
+            <p className="text-sm uppercase font-medium text-start lg:text-center">React</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -30,7 +30,7 @@ const Skills = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">HTML 5</p>
+            <p className="text-sm uppercase font-medium text-start lg:text-center">HTML 5</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -43,7 +43,7 @@ const Skills = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">CSS3</p>
+            <p className="text-sm uppercase font-medium text-start lg:text-center">CSS3</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -56,7 +56,7 @@ const Skills = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">JAVASCRIPT</p>
+            <p className="text-sm uppercase font-medium text-start lg:text-center">JAVASCRIPT</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -69,7 +69,7 @@ const Skills = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">SOFTWARE</p>
+            <p className="text-sm uppercase font-medium text-start lg:text-center">SOFTWARE</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}

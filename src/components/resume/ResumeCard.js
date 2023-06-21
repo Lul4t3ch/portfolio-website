@@ -14,8 +14,8 @@ const ResumeCard = ({title,subTitle,des}) => {
               {subTitle}
             </p>
           </div>
-          <div>
-            <div className="w-24 h-24 flex justify-center items-center border-2 border-indigo-500 rounded-full overflow-hidden">
+          <div className="lgl: flex justify-center items-center">
+            <div className="w-24 h-24 flex justify-center items-center border-2 border-indigo-500 rounded-full overflow-hidden lgl: mt-4">
               <img className="rounded-full" src={logoUnicesumar} alt='logoUnicesumar'/>
             </div>
           </div>

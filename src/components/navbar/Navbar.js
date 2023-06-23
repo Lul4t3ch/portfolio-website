@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div className="flex justify-center items-center">
         <FaCode size={43} color="#c4cfde"/>
-        <p className="text-lg pl-2  pt-0.5 font-bold text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">LUL4T3CH</p>
+        <p className="text-lg pl-2  pt-0.5 font-bold text-gray-400 tracking-wide hover:text-designColor duration-300">LUL4T3CH</p>
       </div>  
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">

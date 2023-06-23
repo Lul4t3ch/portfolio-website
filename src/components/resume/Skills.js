@@ -17,7 +17,7 @@ const Skills = () => {
         </div>
         <div className="flex flex-col gap-6">
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium text-start lg:text-center">React</p>
+            <p className="text-sm uppercase font-medium text-start lg:text-center">HTML</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -30,7 +30,7 @@ const Skills = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium text-start lg:text-center">HTML 5</p>
+            <p className="text-sm uppercase font-medium text-start lg:text-center">CSS3</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -43,7 +43,7 @@ const Skills = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium text-start lg:text-center">CSS3</p>
+            <p className="text-sm uppercase font-medium text-start lg:text-center">Javascript</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -56,7 +56,7 @@ const Skills = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium text-start lg:text-center">JAVASCRIPT</p>
+            <p className="text-sm uppercase font-medium text-start lg:text-center">REACT</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}

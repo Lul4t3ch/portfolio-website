@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.9b7cc05c.css",
-    "main.js": "/portfolio-website/static/js/main.ae447c33.js",
+    "main.js": "/portfolio-website/static/js/main.eb75d404.js",
     "static/media/banner.png": "/portfolio-website/static/media/banner.466bc02e3bfa6d87f075.png",
     "static/media/projectFour.png": "/portfolio-website/static/media/projectFour.d98c0474007db4d5c8cb.png",
     "static/media/projectSix.png": "/portfolio-website/static/media/projectSix.86b7fd1e788e6944c4bc.png",
@@ -14,10 +14,10 @@
     "static/media/logoUnicesumar.png": "/portfolio-website/static/media/logoUnicesumar.a6ced6b2cf67bc26fa91.png",
     "index.html": "/portfolio-website/index.html",
     "main.9b7cc05c.css.map": "/portfolio-website/static/css/main.9b7cc05c.css.map",
-    "main.ae447c33.js.map": "/portfolio-website/static/js/main.ae447c33.js.map"
+    "main.eb75d404.js.map": "/portfolio-website/static/js/main.eb75d404.js.map"
   },
   "entrypoints": [
     "static/css/main.9b7cc05c.css",
-    "static/js/main.ae447c33.js"
+    "static/js/main.eb75d404.js"
   ]
 }

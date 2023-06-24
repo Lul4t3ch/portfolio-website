@@ -22,9 +22,11 @@ const ProjectsCard = ({ title, des, src, repo, site }) => {
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                 <a href={repo}><BsGithub /></a>
               </span>
+             {site ? (
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-              <a href={site}><FaGlobe /></a>
+                <a href={site}><FaGlobe /></a>
               </span>
+             ) : ('')}
             </div>
           </div>
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">

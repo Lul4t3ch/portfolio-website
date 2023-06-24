@@ -46,7 +46,6 @@ const Projects = () => {
           CSS e JS adquirido durante meus estudos."
           src={projectFour}
           repo="https://github.com/Lul4t3ch/responsive-landing-page"
-          site="https://lul4t3ch.github.io/responsive-landing-page/"
         />
         <ProjectsCard
           title="POKÉDEX"
@@ -54,7 +53,6 @@ const Projects = () => {
            geração através do consumo de uma API REST!"
           src={projectFive}
           repo="https://github.com/Lul4t3ch/Pokedex"
-          site="#"
         />
         <ProjectsCard
           title="CLONE PLATAFORMA DIO"
@@ -63,7 +61,6 @@ const Projects = () => {
           Login, Cadastro e feed."
           src={projectSix}
           repo="https://github.com/Lul4t3ch/Clone-plataforma-DIO"
-          site="#"
         />
       </div>
     </section>

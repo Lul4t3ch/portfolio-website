@@ -1,5 +1,5 @@
 {
-  "name": "portfolioyoutube",
+  "name": "portfolio-website",
   "version": "0.1.0",
   "homepage": "https://Lul4t3ch.github.io/portfolio-website",
   "private": true,
@@ -12,7 +12,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.9",
     "react-simple-typewriter": "^5.0.1",
     "react-slick": "^0.29.0",
